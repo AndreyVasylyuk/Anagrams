@@ -19,7 +19,6 @@ public class Anagrams {
 		for(int i = 0; i < inputStr.length(); i++) {
 		    spaces += (Character.isWhitespace(inputStr.charAt(i))) ? 1 : 0; 
 		}
-//		System.out.println(spaces);
 
 		// split inputStr to inputWords[]
 		for(String word : inputStr.split(" ")) {						// for every word in splitted inputStr by " "
