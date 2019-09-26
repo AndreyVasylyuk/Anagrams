@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Stack;
 
-public class Anagram {
+public class Anagrams {
 	public static void main(String[] args) {
 		String inputStr = "";
 
